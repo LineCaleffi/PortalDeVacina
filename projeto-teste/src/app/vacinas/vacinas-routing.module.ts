@@ -4,9 +4,9 @@ import { FormVacinasComponent } from './form-vacina/form-vacina.component';
 import { ListarComponent } from './listar/listar.component';
 
 const routes: Routes = [
-  {path: 'vacina', component: ListarComponent},
-  {path: 'vacina/criar', component: FormVacinasComponent},
-  {path: 'vacina/editar/:id', component: FormVacinasComponent},
+  {path: 'vacinas', component: ListarComponent},
+  {path: 'vacinas/criar', component: FormVacinasComponent},
+  {path: 'vacinas/editar/:id', component: FormVacinasComponent},
 ];
 
 @NgModule({

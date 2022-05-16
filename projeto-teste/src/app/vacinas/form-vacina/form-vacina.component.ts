@@ -21,7 +21,9 @@ export class FormVacinasComponent implements OnInit {
   ngOnInit(): void {
     this.meuForm=this.formBuilder.group({
       nome:[null, [Validators.required] ],
-      principal:[null, [Validators.required] ]
+      fabricante:[null, [Validators.required] ],
+      qntDoses:[null, [Validators.required]],
+      intervalo:[null, [Validators.required]]
     });
     this.activatedRouter.params.subscribe((parametros : any)=>{
       console.log(parametros);

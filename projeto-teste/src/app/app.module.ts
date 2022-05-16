@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FilmesModule } from './filmes/filmes.module';
 import { UsuarioModule } from './usuario/usuario.module';
 import { VacinasModule } from './vacinas/vacinas.module';
 
@@ -17,7 +16,6 @@ import { VacinasModule } from './vacinas/vacinas.module';
     AppRoutingModule,
     FormsModule,
     VacinasModule,
-    FilmesModule,
     UsuarioModule
   ],
   providers: [],

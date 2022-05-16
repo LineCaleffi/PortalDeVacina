@@ -31,16 +31,16 @@
       <th>{{p.fabricante}}</th>
       <th>{{p.qntDoses}}</th>
       <th>{{p.intervalo}}</th>
-      <td>
+      <th>
         <button class="btn btn-outline-info" [routerLink]="['/vacinas/editar',p.id]">
           <img class="edit" src="assets/img/editar.png" alt="edit">
         </button>
-      </td>
-      <td>
+      </th>
+      <th>
         <button class="btn btn-outline-danger" (click)="onDelete(p.id)">
           <img class="edit" src="assets/img/deletar.jpg" alt="edit">
         </button>
-      </td>
+      </th>
     </tr>
   </tbody>
   </table>
