@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { UsuarioListarComponent } from './usuario-listar/usuario-listar.component';
 import { UsuarioRoutingModule } from './usuario-routing.module';
 import { FormUsuarioComponent } from './form-usuario/form-usuario.component';
+import { HttpClientModule } from '@angular/common/http';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -13,7 +15,9 @@ import { FormUsuarioComponent } from './form-usuario/form-usuario.component';
   ],
   imports: [
     CommonModule,
-    UsuarioRoutingModule
+    UsuarioRoutingModule,
+    HttpClientModule,
+    SharedModule
   ],
   exports:[
     UsuarioListarComponent
