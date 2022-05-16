@@ -16,8 +16,8 @@ import { VacinasModule } from './vacinas/vacinas.module';
     AppRoutingModule,
     FormsModule,
     VacinasModule,
-    UsuarioModule
-  ],
+    UsuarioModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
