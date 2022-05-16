@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="org.modelmapper.ModelMapper"/>
+    <fullyQualifiedTypeName name="br.com.nava.dto.UsuarioDto"/>
+    <fullyQualifiedTypeName name="br.com.nava.repositories.UsuarioRepository"/>
+    <fullyQualifiedTypeName name="br.com.nava.entity.UsuarioEntity"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="com.projetonava.dto.VacinaDto"/>
+    <fullyQualifiedTypeName name="br.com.nava.dto.VacinacaoDto"/>
+</qualifiedTypeNameHistroy>
