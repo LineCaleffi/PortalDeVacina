@@ -4,14 +4,14 @@ import { ListarComponent } from './listar/listar.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { VacinasRoutingModule } from './vacinas-routing.module';
-import { FormSeriesComponent } from './form-series/form-series.component';
+import { FormVacinasComponent } from './form-vacina/form-vacina.component';
 import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
   declarations: [
     ListarComponent,
-    FormSeriesComponent
+    FormVacinasComponent
     ],
   imports: [
     CommonModule,

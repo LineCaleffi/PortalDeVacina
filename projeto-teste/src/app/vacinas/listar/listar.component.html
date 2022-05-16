@@ -1,0 +1,47 @@
+<br>
+<div class="container">
+
+  <div class="jumbotron"> <!-- Indica uma caixa grande para chamar a atenção extra para algum conteúdo -->
+      <h1 class="display-6">Lista de vacinas</h1>
+      <hr class="my-2"> <!-- Adiciona uma linha abaixo para divisão -->
+    </div>
+<br>
+
+  <div class="row float-end">
+    <button class="btn btn-success" routerLink="/vacinas/criar">
+      <img class="criar" src="assets/img/criar.png" alt="criar">
+    </button>
+  </div><br><br>
+  <table class="table table-hover">
+    <thead>
+    <tr class="table-dark">
+      <th>ID</th>
+      <th>Nome</th>
+      <th>Fabricante</th>
+      <th>qntDose</th>
+      <th>Intervalo de dias</th>
+      <th></th>
+      <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let p of vacinas">
+      <th>{{ p.id}}</th>
+      <th>{{p.nome}}</th>
+      <th>{{p.fabricante}}</th>
+      <th>{{p.qntDoses}}</th>
+      <th>{{p.intervalo}}</th>
+      <td>
+        <button class="btn btn-outline-info" [routerLink]="['/vacinas/editar',p.id]">
+          <img class="edit" src="assets/img/editar.png" alt="edit">
+        </button>
+      </td>
+      <td>
+        <button class="btn btn-outline-danger" (click)="onDelete(p.id)">
+          <img class="edit" src="assets/img/deletar.jpg" alt="edit">
+        </button>
+      </td>
+    </tr>
+  </tbody>
+  </table>
+</div>

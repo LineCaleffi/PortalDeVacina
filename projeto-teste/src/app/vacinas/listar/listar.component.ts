@@ -9,7 +9,7 @@ import { VacinasService } from '../vacinasservice';
 })
 export class ListarComponent implements OnInit {
 
-  series : any =[];
+  vacinas : any =[];
   constructor(private activatedRoute: ActivatedRoute, private vacinaService : VacinasService) {
     // this.activatedRoute = new ActivatedRoute();
    }
@@ -25,7 +25,7 @@ export class ListarComponent implements OnInit {
   private getAll(){
     this.vacinaService.getAll().subscribe((data)=>{
       console.log(data);
-      this.series = data;
+      this.vacinas = data;
     });
   }
 

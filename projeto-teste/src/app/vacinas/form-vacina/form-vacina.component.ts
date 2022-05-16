@@ -4,11 +4,11 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { VacinasService } from '../vacinasservice';
 
 @Component({
-  selector: 'app-form-series',
-  templateUrl: './form-series.component.html',
-  styleUrls: ['./form-series.component.scss']
+  selector: 'app-form-vacina',
+  templateUrl: './form-vacina.component.html',
+  styleUrls: ['./form-vacina.component.scss']
 })
-export class FormSeriesComponent implements OnInit {
+export class FormVacinasComponent implements OnInit {
   meuForm : FormGroup = new FormGroup({});
   // para saber se é edição
   isEdicao : boolean = false;

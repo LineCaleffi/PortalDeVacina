@@ -5,8 +5,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FilmesModule } from './filmes/filmes.module';
-import { SeriesModule } from './series/series.module';
 import { UsuarioModule } from './usuario/usuario.module';
+import { VacinasModule } from './vacinas/vacinas.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { UsuarioModule } from './usuario/usuario.module';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    SeriesModule,
+    VacinasModule,
     FilmesModule,
     UsuarioModule
   ],
