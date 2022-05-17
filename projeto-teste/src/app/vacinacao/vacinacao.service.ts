@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -5,5 +6,13 @@ import { Injectable } from '@angular/core';
 })
 export class VacinacaoService {
 
-  constructor() { }
+  constructor(private httpClient:HttpClient) { }
+
+  getAll(){
+    return this.httpClient.get('http://localhost:8080/vacinacao');
+  }
+
+  getOne(id: number){
+    return this.httpClient.get(`http://localhost:8080/vacinacao/${id}`);
+  }
 }

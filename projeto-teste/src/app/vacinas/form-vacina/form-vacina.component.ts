@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { VacinasService } from '../vacinasservice';
+import { VacinasService } from '../vacinas.service';
 
 @Component({
   selector: 'app-form-vacina',

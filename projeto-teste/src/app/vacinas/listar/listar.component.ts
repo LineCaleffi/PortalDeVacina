@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { VacinasService } from '../vacinasservice';
+import { VacinasService } from '../vacinas.service';
 
 @Component({
   selector: 'app-listar',

@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ListarVacinacaoComponent } from './listar-vacinacao/listar-vacinacao.component';
+import { HttpClientModule } from '@angular/common/http';
+import { VacinacaoRoutingModule } from './vacinacao-routing.module';
 
 
 
@@ -10,7 +12,8 @@ import { ListarVacinacaoComponent } from './listar-vacinacao/listar-vacinacao.co
   ],
   imports: [
     CommonModule,
-    VacinacaoModule
+    HttpClientModule,
+    VacinacaoRoutingModule
   ],
   exports:[
     ListarVacinacaoComponent

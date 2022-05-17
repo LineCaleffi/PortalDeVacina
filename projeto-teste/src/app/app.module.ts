@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UsuarioModule } from './usuario/usuario.module';
+import { VacinacaoModule } from './vacinacao/vacinacao.module';
 import { VacinasModule } from './vacinas/vacinas.module';
 
 @NgModule({
@@ -17,6 +18,7 @@ import { VacinasModule } from './vacinas/vacinas.module';
     FormsModule,
     VacinasModule,
     UsuarioModule,
+    VacinacaoModule
     ],
   providers: [],
   bootstrap: [AppComponent]

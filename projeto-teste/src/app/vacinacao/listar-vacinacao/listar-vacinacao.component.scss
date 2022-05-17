@@ -1,0 +1,21 @@
+.table .edit{
+  max-height: 32px;
+}
+
+.table .delete{
+  max-height: 32px;
+}
+
+.criar{
+  max-height: 32px;
+}
+
+
+* {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cursive, sans-serif;
+  border: none; //tira todas as bordas existentes - incluindo do botão
+}
