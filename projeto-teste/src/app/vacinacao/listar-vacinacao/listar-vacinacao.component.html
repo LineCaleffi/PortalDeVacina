@@ -1,6 +1,5 @@
 <br>
 <div class="container">
-
   <div class="jumbotron"> <!-- Indica uma caixa grande para chamar a atenção extra para algum conteúdo -->
     <h1 class="display-6">Relatório de Vacinação
       <img class="criar" src="assets/img/vacina.png" alt="criar">
@@ -12,30 +11,30 @@
   <br><br>
   <table class="table table-hover">
     <thead>
-    <tr class="table-dark">
-     <!-- <th>ID</th> -->
-      <th>Usuário</th>
-      <th>CPF</th>
-      <th>Data de Nascimento</th>
-      <th>Dose</th>
-      <th>Data da Vacinação</th>
-      <th>Data da Proxima</th>
-      <th>Vacina</th>
-      <th>Fabricante</th>
-    </tr>
+      <tr class="table-dark">
+      <!-- <th>ID</th> -->
+        <th>Usuário</th>
+        <th>CPF</th>
+        <th>Data de Nascimento</th>
+        <th>Dose</th>
+        <th>Data da Vacinação</th>
+        <th>Data da Proxima</th>
+        <th>Vacina</th>
+        <th>Fabricante</th>
+      </tr>
     </thead>
     <tbody>
-    <tr *ngFor="let v of vacinacao">
-      <!-- <th>{{ v.id}}</th> -->
-      <th>{{v.usuario.nome}}</th>
-      <th>{{v.usuario.cpf}}</th>
-      <th>{{v.usuario.dataNasc}}</th>
-      <th>{{v.dose}}</th>
-      <th>{{v.dataVacinacao}}</th>
-      <th>{{v.dataProxima}}</th>
-      <th>{{v.vacina.nome}}</th>
-      <th>{{v.vacina.fabricante}}</th>
-    </tr>
-  </tbody>
+      <tr *ngFor="let v of vacinacao">
+        <!-- <th>{{ v.id}}</th> -->
+        <th>{{v.usuario.nome}}</th>
+        <th>{{v.usuario.cpf}}</th>
+        <th>{{v.usuario.dataNasc}}</th>
+        <th>{{v.dose}}</th>
+        <th>{{v.dataVacinacao}}</th>
+        <th>{{v.dataProxima}}</th>
+        <th>{{v.vacina.nome}}</th>
+        <th>{{v.vacina.fabricante}}</th>
+      </tr>
+    </tbody>
   </table>
 </div>
