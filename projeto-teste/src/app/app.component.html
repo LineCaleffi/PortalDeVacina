@@ -1,6 +1,10 @@
 <div class="container">
   <ul class="nav nav-pills nav-fill justify-content-center">
     <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/vacinacao']"
+      routerLinkActive="active" ><img class="criar" src="assets/img/vacina.png" alt="criar">+<img class="criar" src="assets/img/usuario.png" alt="criar"></a>
+    </li>
+    <li class="nav-item">
       <a class="nav-link" [routerLink]="['/vacinas']"
       routerLinkActive="active" > <img class="criar" src="assets/img/vacina.png" alt="criar">
     </a>
@@ -8,10 +12,6 @@
     <li class="nav-item">
       <a class="nav-link" [routerLink]="['/usuarios']"
       routerLinkActive="active" ><img class="criar" src="assets/img/usuario.png" alt="criar"></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" [routerLink]="['/vacinacao']"
-      routerLinkActive="active" ><img class="criar" src="assets/img/vacina.png" alt="criar">+<img class="criar" src="assets/img/usuario.png" alt="criar"></a>
     </li>
   </ul>
   <router-outlet></router-outlet>
