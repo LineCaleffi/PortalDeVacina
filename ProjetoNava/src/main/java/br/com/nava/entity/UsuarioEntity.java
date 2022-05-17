@@ -32,4 +32,4 @@ public class UsuarioEntity {
 		
 		return dto;
 	}
-}
+}//subindo projeto no gitLab

@@ -20,4 +20,4 @@ public class UsuarioDto {
 		
 		return mapper.map(this, UsuarioEntity.class);
 	}
-}
+}//subindo projeto no gitLab
